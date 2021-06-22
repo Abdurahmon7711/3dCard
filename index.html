@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>3d card</title>
+</head>
+<body>
+	<section> 
+		<div class="card">
+			<div class="card__header">
+				<img src="img/apple_logo_PNG19689.png" alt="apple logo">
+				<h3>Apple Card</h3>
+			</div>
+			<div class="card__body">
+				<h4>S.Abdurahmon</h4>
+				<p>8066 1221 1998 1223</p>
+				<img class="cardchip" src="img/cardchip.png" alt="cardchip logo">
+			</div>
+		</div>
+	</section>
+	
+	<div class="nextdiv"></div>
+	<div class="nextdiv2"></div>
+ 
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+	<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".card"), {
+		max:15,
+		speed:5
+	});
+	
+	 
+</script>
+</body>
+</html>
